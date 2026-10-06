@@ -3,10 +3,13 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import Router from "./Components/Router";
+import MenuRouter from "./Components/MenuRouter";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <h1>Titulo de la pagina</h1>
+    <MenuRouter />
     <hr></hr>
     <Router />
     <hr></hr>
