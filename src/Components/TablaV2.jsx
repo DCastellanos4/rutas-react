@@ -37,6 +37,9 @@ export default class Tabla extends Component {
     });
   };
 
+  componentDidMount = () => {
+    this.numerosAleatorios();
+  };
   render() {
     return (
       <div>
